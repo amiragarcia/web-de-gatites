@@ -39,7 +39,7 @@ nav img{
     font-weight: bold;
 }
 
-.col-md-8 p{
+.portada .col-md-8 p{
     margin-left: 80px;
     margin-top: 15px;
 }
@@ -47,4 +47,38 @@ nav img{
 .col-md-8 button{
     margin-left: 80px;
     font-size: 12px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.espaciado{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.informacion .col-md-8 p{
+    margin-top: 15px;
+}
+
+/*.card-fluid a{
+    float:right
+}*/
+
+.card-fluid .paw{
+    width: 25px;
+}
+
+.card-fluid .description{
+    font-size: 15px;
+    color: #484848;
+}
+
+.card-fluid h3{
+    margin-top: 15px;
+}
+
+.espaciado-mediano{
+    padding-top: 50px;
 }
