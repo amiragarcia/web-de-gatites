@@ -1,3 +1,7 @@
+body{
+    color: #484848;
+}
+
 header{
     height: 64px;
     padding: 5px;
@@ -46,7 +50,7 @@ nav img{
 
 .col-md-8 button{
     margin-left: 80px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .centrado{
@@ -54,7 +58,7 @@ nav img{
 }
 
 .espaciado{
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 100px;
 }
 
@@ -62,23 +66,27 @@ nav img{
     margin-top: 15px;
 }
 
-/*.card-fluid a{
-    float:right
-}*/
-
-.card-fluid .paw{
+.card .paw{
     width: 25px;
 }
 
-.card-fluid .description{
+.card .description{
     font-size: 15px;
-    color: #484848;
 }
 
-.card-fluid h3{
+.card h3{
     margin-top: 15px;
 }
 
 .espaciado-mediano{
     padding-top: 50px;
+}
+
+.card{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14) !important;
+    padding: 15px;
+}
+
+.gallery-section{
+    background-color: #f1f1f1;
 }
