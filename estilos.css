@@ -87,7 +87,7 @@ nav img{
     padding: 15px;
 }
 
-.gallery-section{
+.section-color{
     background-color: #f1f1f1;
 }
 
@@ -124,4 +124,8 @@ nav img{
 .costumbres img{
     display: block;
     margin: auto;
+}
+
+.formulario a{
+    margin-top: 15px;
 }
