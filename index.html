@@ -2,48 +2,47 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Bienvenidx a mi web</title>
-        <link rel="icon" href="img/logo.jpg" /> <!--falta-->
-        <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"-->
+        <title>Bienvenidx</title>
+        <link rel="icon" href="img/logo.jpg" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         <link rel="stylesheet" href="estilos.css" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Soy persona, estudiante, autodidacta y curiosa, pero por sobretodo, soñadora. | Te invito a que me conozcas un poquito mejor." />
-        <meta name="keywords" content="perfil, cv, amira garcia" />
+        <meta name="description" content="Esta es una web de gatitos, si te gustan los perros dale click igual porque hay fotos muy bonitas." />
+        <meta name="keywords" content="gatitos, michis, gatos, ronroneo" />
         <meta name="author" content="Ami García" />
         <meta name="copyright" content="Amira_García_2022" />
         <meta name="robots" content="index follow" />
 
-        <meta property="og:title" content="¡Bienvenidx a mi web!" />
-        <meta property="og:description" content="Soy persona, estudiante, autodidacta y curiosa, pero por sobretodo, soñadora." />
+        <meta property="og:title" content="¡Bienvenidx!" />
+        <meta property="og:description" content="Esta es una web de gatites" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="" /> <!--falta-->
-        <meta property="og:url" content="" /> <!--falta-->
+        <meta property="og:image" content="img/galeria1.jpg" />
+        <meta property="og:url" content="www.gatites.com" />
 
-        <meta property="twitter:title" content="¡Bienvenidx a mi web!" />
-        <meta property="twitter:description" content="Te invito a que me conozcas un poquito mejor." />
+        <meta property="twitter:title" content="Web de gatites" />
+        <meta property="twitter:description" content="¡Mirá todas las fotos de michis que quieras!" />
         <meta property="twitter:type" content="website" />
-        <meta property="twitter:image" content="" /> <!--falta-->
-        <meta property="twitter:url" content="" /> <!--falta-->
+        <meta property="twitter:image" content="img/galeria3.jpg" />
+        <meta property="twitter:url" content="www.gatites.com" />
     </head>
 
     <body>
         <header>
             <nav>
-                <a href="#"><img src="img/logo.jpg" alt="logo gatito" /></a>
+                <a href="#portada"><img src="img/logo.jpg" alt="logo gatito" /></a>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Razas</a></li>
-                    <li><a href="#">Galería</a></li>
-                    <li><a href="#">Costumbres</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#portada">Inicio</a></li>
+                    <li><a href="#razas">Razas</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#costumbres">Costumbres</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>  
         </header>
 
-        <section class="portada">
+        <section class="portada" id="portada">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">
@@ -55,7 +54,7 @@
             </div>
         </section>
 
-        <section class="informacion espaciado">
+        <section class="informacion espaciado" id="razas">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 centrado">
@@ -119,7 +118,7 @@
             </div>
         </section>
 
-        <section class="espaciado section-color">
+        <section class="espaciado section-color" id="galeria">
             <!--h2 class="centrado">Galería de imágenes</h2-->
 
             <div class="container espaciado-mediano">
@@ -147,7 +146,7 @@
             </div>
         </section>
 
-        <section class="espaciado costumbres">
+        <section class="espaciado costumbres" id="costumbres">
             <div class="container">
                 <div class="row intro">
                     <div class="col-md-3"></div>
@@ -179,7 +178,7 @@
             </div>
         </section>
 
-        <section class="espaciado section-color formulario">
+        <section class="espaciado section-color formulario" id="contacto">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
